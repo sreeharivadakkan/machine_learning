@@ -1,0 +1,13 @@
+
+Turn 1
+================================================================
+error: failed to decode bot message: "F" (at position 3)
+Last input received was:
+  File "MyBot.py", line 5, in <module>
+    import hlt
+  File "D:\mygit\machine_learning\Halite\Halite_python3\hlt\__init__.py", line 3, in <module>
+    from . import commands, entity, game_map, networking, constants
+  File "D:\mygit\machine_learning\Halite\Halite_python3\hlt\entity.py", line 8, in <module>
+    class Entity(abc.ABC):
+AttributeError: 'module' object has no attribute 'ABC'
+
